@@ -22,6 +22,9 @@ public class Avion {
         this.isFly = isFly;
     }
 
+    public void cambiarDestino(String destino){
+        this.destino = destino;
+    }
     public void despegar(){
         this.isFly = true;
     }
